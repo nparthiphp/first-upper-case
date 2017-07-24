@@ -9,14 +9,13 @@ A small library that converts capital letter
 
 ## Usage
 
-    var firstUpperCase = require('first-upper-case');
+    var toFirstUpperCase = require('first-upper-case');
 
     var str = 'welcome to node package manager';
 
-    var convertedString = str.firstUpperCase();
+    var convertedString = str.toFirstUpperCase();
   
-  
-  Output should be `Welcome to node package manager
+Output should be `Welcome to node package manager
 
 ## Tests
 
